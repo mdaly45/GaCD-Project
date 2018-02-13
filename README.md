@@ -25,8 +25,8 @@ the data set is downloaded, and unzipped.
 set merging process. See "Codebook.md" for further details.
 4. The data set is then subsetted to only include measurements of standard deviation and mean. 
 5. Descriptive activity names are then used to name the specific activities in the data set.
-6. Appropriately label the data set with descriptive variable names.
-7. Lastly, a second independent tidy data set with the average of each variable for each activity and each subject is 
+6. Appropriate labels were applied to the data set so they would have more descriptive variable names.
+7. Lastly, a second independent tidy data set with the average of each variable for each activity and each subject was 
 created.
 
 A sample of the output of running the run_analysis.R script is provided as a text file titled "tidydata2.txt", which
