@@ -1,14 +1,14 @@
-#library(dplyr) 
-#library(plyr)
-#
-#if(!file.exists("./data")){
-#      dir.create("./data")
-#      }
-# fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-# download.file(fileUrl, destfile="./data/UCI_HAR_Dataset.zip")
-# 
-# # Unzip dataSet to /data directory
-# unzip(zipfile="./data/UCI_HAR_Dataset.zip",exdir="./data")
+library(dplyr) 
+library(plyr)
+
+if(!file.exists("./data")){
+      dir.create("./data")
+      }
+ fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+ download.file(fileUrl, destfile="./data/UCI_HAR_Dataset.zip")
+ 
+# Unzip dataSet to /data directory
+ unzip(zipfile="./data/UCI_HAR_Dataset.zip",exdir="./data")
 
 #STEP 1: Merge the training and the test sets to create one data set.
 #Read in Datasets
